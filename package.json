@@ -1,24 +1,21 @@
 {
-  "name": "aifan-server",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app",
-    "dev": "nodemon --watch \"*.ts\" --exec \"ts-node\" app.ts"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@types/express": "^5.0.0",
     "aedes": "^0.51.3",
     "express": "^4.21.2",
     "mqtt": "^5.10.4",
-    "typescript": "^5.8.2"
-  },
-  "devDependencies": {
     "nodemon": "^3.1.9",
-    "ts-node": "^10.9.2"
-  }
+    "websocket-stream": "^5.5.2"
+  },
+  "name": "aifan-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dev": {
+    "start": "node app.js"
+  },
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC"
 }
