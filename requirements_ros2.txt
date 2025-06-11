@@ -1,0 +1,43 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+ROS2-MQTT Bridge Requirements
+=============================
+Ubuntu Pi LiDAR 시스템을 위한 의존성 패키지 목록
+"""
+
+# MQTT 클라이언트
+paho-mqtt>=1.6.1
+
+# 수치 계산
+numpy>=1.21.0
+
+# JSON 처리 (Python 내장)
+# json
+
+# 수학 계산 (Python 내장)  
+# math
+
+# 시간 처리 (Python 내장)
+# time
+
+# 시그널 처리 (Python 내장)
+# signal
+
+# 시스템 (Python 내장)
+# sys
+
+# 스레딩 (Python 내장)
+# threading
+
+# 컬렉션 (Python 내장)
+# collections
+
+# ROS2 패키지들은 시스템 레벨에서 설치 필요:
+# sudo apt install ros-humble-desktop
+# sudo apt install ros-humble-sensor-msgs
+# sudo apt install python3-rclpy
+
+# 선택적 패키지들:
+# opencv-python>=4.5.0  # 이미지 처리가 필요한 경우
+# matplotlib>=3.5.0     # 시각화가 필요한 경우 
